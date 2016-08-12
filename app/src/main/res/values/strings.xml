@@ -46,6 +46,8 @@
     <string name="save">儲存</string>
     <string name="load">讀取</string>
     <string name="delete">刪除</string>
+    <string name="de">相關連結網址</string>
+
     <string-array name="text">
         <item>攻速增加濃縮汁10%</item>
         <item>跳跳糖25%</item>

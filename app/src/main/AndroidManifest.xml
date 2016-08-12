@@ -7,10 +7,10 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo5"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@mipmap/logo1">
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,6 @@
         <activity android:name=".Occupation1" />
         <activity android:name=".Numerical" />
         <activity android:name=".skill" />
-        <activity android:name=".Timer" />
         <activity android:name=".Link"></activity>
     </application>
 

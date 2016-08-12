@@ -8,11 +8,7 @@ import android.view.Menu;
 import android.view.SubMenu;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.Spinner;
-
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -24,7 +20,6 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
 
 public class Numerical extends AppCompatActivity {
     Spinner spinner;
@@ -284,7 +279,7 @@ public class Numerical extends AppCompatActivity {
 
     }
 
-    public void click2(View v) {
+   /* public void click2(View v) {
 
         ArrayList<Student> mylist = new ArrayList();
 
@@ -306,7 +301,7 @@ public class Numerical extends AppCompatActivity {
         String str = gson.toJson(mylist, new TypeToken<ArrayList<Student>>() {
         }.getType());
         Log.d("JSON", str);
-    }
+    }*/
 
 
 }

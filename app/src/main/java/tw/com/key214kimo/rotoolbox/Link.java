@@ -42,10 +42,7 @@ public class Link extends AppCompatActivity {
             Intent it = new Intent(Link.this, skill.class);
             startActivityForResult(it, 99);
         }
-        if (id == 4) {
-            Intent it = new Intent(Link.this, Timer.class);
-            startActivityForResult(it, 99);
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
